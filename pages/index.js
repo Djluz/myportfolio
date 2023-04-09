@@ -4,12 +4,12 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import Image from 'next/legacy/image'
 import me from '../public/me.png'
 import tri from '../public/bg-texture.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
+import web1 from '../public/bgst.png'
+import web2 from '../public/craftfactory.png'
+import web3 from '../public/cyd.png'
+import web4 from '../public/welearn.png'
+import web5 from '../public/mathgame.png'
+import web6 from '../public/portfolio.png'
 import {useState} from 'react'
 import CV from '../public/files/cv.pdf'
 import Nav from './Nav'
@@ -29,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='px-10 text-black bg-white md:px-20 lg:px-40 dark:bg-gray-900'>
-        
+
 {/*-------------- first page------------- */}
         <section className="min-h-screen" id="">
           <nav className='flex justify-between py-10 mb-12 dark:text-white'>
@@ -68,19 +68,19 @@ export default function Home() {
               <BsGithub className='cursor-pointer hover:fill-teal-400' />
             </a>
           </div>
-          
+
           <Nav />
         </section>
 
-{/*-------------- second page------------- */}        
+{/*-------------- second page------------- */}
         <section className='pt-[50px] text-center mx-auto' id="about">
           <div>
-          
+
             <About />
 
           </div>
         </section>
-        
+
 {/*-------------- third page------------- */}
         <section className='text-center mt-5 pt-[50px]' id="services">
           <div>
@@ -172,7 +172,7 @@ export default function Home() {
               Portfolio
             </h3>
             <p className='max-w-2xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200'>
-              This showcases the most recent projects I have done for my clients in freelancing as well as projects from Kodego Bootcamp. 
+              This showcases the most recent projects I have done for my clients in freelancing as well as projects from Kodego Bootcamp.
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
@@ -180,13 +180,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web1} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Individual Project. This project is built without any functionalities.</p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://bgst-website.djluz.website/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/Boobie-Goodies---Sweet-Treats' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -196,13 +196,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web2} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Craft Factory is an E-commerce website I created with my team during Kodego Bootcamp for our Capstone Project. I did most of the front-end and back-end coding using Laravel Framework. </p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://laravel10.craftfactory.online/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/Craft_Factory' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -212,13 +212,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web3} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>CYD is a business website for an Online Legal Service as requested by a client it is created using ReactJS and Tailwindcss.</p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://cyd-services.djluz.website/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/cyd-services' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -228,13 +228,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web4} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>We-Learn is an E-learning website I created with my team during Kodego Bootcamp for Front-end Project 2. I did the website designing and most of the front-end coding in this project.</p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://welearn-website.djluz.website/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/we_learn' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -244,13 +244,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web5} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Math-Game is a mathematical game application/website for kids to play while learning or mastering basic arithmetics. This project is created using ReactJS.</p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://math-game-z.djluz.website/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/math-game' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -260,13 +260,13 @@ export default function Home() {
               <div className='relative overflow-hidden rounded-lg'>
                 <Image src={web6} className='object-cover rounded-lg' width={'100%'} height={'100%'} layout='responsive' />
                 <div className='absolute flex  flex-col items-center justify-center w-full h-full transition-all duration-300 rounded-lg opacity-0 bg-black/70 -bottom-10 group-hover:bottom-0 group-hover:opacity-100'>
-                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>Boobie Goodies & Sweet Treats is a business website I created during Kodego Bootcamp for Front-end Project.</p>
+                  <p className='text-black py-5 px-5 bg-white bg-opacity-90 text-sm md:text-xl'>DJ Luz is a Portfolio website I created for personal use to showcase my projects in web developing. I created this project using NextJS and Tailwindcss. </p>
                   <div className='flex justify-center text-sm gap-2 mt-5 md:gap-10 md:text-lg lg:gap-3 xl:gap-10'>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Demo</button>
+                    <a href='https://djluz.website/' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black' >View Website</button>
                     </a>
-                    <a href='https://djluz.github.io/Boobie-Goodies---Sweet-Treats/' target='_blank'>
-                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Live/Github</button>
+                    <a href='https://github.com/Djluz/myportfolio' target='_blank'>
+                      <button className='px-5 py-2 text-white rounded-lg shadow-lg bg-gradient-to-r from-cyan-500 to-teal-500 hover:shadow-gray-500 hover:text-black'>View Github</button>
                     </a>
                   </div>
                 </div>
@@ -275,10 +275,10 @@ export default function Home() {
           </div>
         </section>
 
-{/*-------------- fifth page------------- */}        
+{/*-------------- fifth page------------- */}
 <section className='pt-[50px] text-center mx-auto' id="contact">
           <div>
-          
+
             <Contact />
 
           </div>
